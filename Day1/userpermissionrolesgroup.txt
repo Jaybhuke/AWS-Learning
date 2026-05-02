@@ -1,0 +1,75 @@
+
+
+So now we have learn advanced conecepts of IAM..
+
+1. Least privilege
+
+Give only the required permissions - Nothing extra.
+
+2. Groups (Better Management)
+
+Why Groups?
+
+Avoid assiging permisssions user by user.
+
+
+So we have practically learn this to how to create and give permission to group..
+
+
+1. We have to go IAM section.
+2. Then g to IAM use groups.
+3. Then click on create group.
+4. Given name of your group.
+5. Add users which you want to add in that group have permissions.
+6. Then attach policy here i have given amazons3fullaccess.
+7. then click on create user group.
+
+Done
+
+3. Policies
+
+4. Roles
+
+Give permissions to AWS services.
+
+EC2 Instance -> Access S3
+
+so to EC2 Instance giving access to S3 bucket
+
+Dont use access keys
+use IAM role.
+
+If your application need s3 bucket it will be helpful..
+
+So we have practicaly tested this thing..
+
+1. Go to Roles section in IAM.
+2. Then click on Create role .
+3. Then choose trusted entiity type so i have selected AWS service.
+4. Then select service or use case, here i select EC2.
+5. Then attaceh policy for your role so i have selected `AmazonS3ReadOnlyAccess`
+6. Then click on create role.
+
+done.
+
+5. Access keys
+API access
+Scripts
+CLI
+
+Rule
+
+Dont hardcoded keys
+Roatate keys regulary
+
+
+
+Summary
+
+User -> Person
+Group -> Collection
+Policy -> permissions
+Role -> temporary access for services.
+
+
+

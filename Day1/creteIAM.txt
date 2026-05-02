@@ -1,0 +1,40 @@
+
+
+Today we have learn how to create IAM users and access.
+
+
+1.So first login from your Root account then go to search section and search for IAM.
+2. Then Go to IAM users section.
+3. Then click on create user.
+4. Give name for IAM user.
+5. Sleect checkbox if your user wants to give access of console.
+6. Then set custom password or give choice to user to set or change password.
+7. Then select for permission attach policy.
+8. For learning purpose we have given AdministratorAccess policy.
+9. Then clickon create user.
+10. Boom your user created now you see details of user id , console login link and password.
+11. Now you can login with this details.
+
+
+Why this matters?
+
+Security -> Access Control -> Least privilege
+
+Real production scenario
+
+If Developer accidently deletes S3 bucket.
+
+Solution :- 
+
+Restrict permission using IAM.
+No full admin access
+
+Interview questions
+
+What is IAM?
+IAM is service that manages access to AWS resources securely by defining users, roles and permissions.
+
+What is Policy?
+A Json document that defines permissions.
+
+

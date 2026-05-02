@@ -1,0 +1,38 @@
+What is IAM?
+
+IAM controls who can access AWS and what they can do.
+
+
+IAM Compnents 
+
+1. Users
+Individual Person or service.
+
+2. Groups
+Collection of users
+
+3. Policies(MOST Important)
+JSON document that defines permissions.
+
+Example:
+
+{ 
+	"Effect": "Allow"
+	"Action": "s3:ListBucket"
+	"Resource": "*"
+}
+
+Meaning
+
+Effect = Allow/Deny
+Action = what operation
+Resource = On What Resource
+
+4. Roles
+Temporary permissions for services.
+
+IMPORTANT RULES
+
+- Never use root user
+- Always use IAM users
+

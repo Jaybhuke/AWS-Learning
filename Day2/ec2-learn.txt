@@ -1,0 +1,10 @@
+
+After gap of 8days conitinuing
+
+So we will learn today about EC2
+
+What is EC2?
+
+Elastic compute cloud, EC2 is the virtual server in the cloud.
+
+
